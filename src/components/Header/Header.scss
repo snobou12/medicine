@@ -1,0 +1,92 @@
+@import "../../styles/variables";
+
+.header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    height: 55px;
+    width: calc(100% - 190px);
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header__title {
+    margin-left: 40px;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+
+}
+
+.header__rightside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+    margin-right: 40px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.header__navigation_item {
+    cursor: pointer;
+}
+
+
+.header__avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.header__avatar_block {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.header__avatar_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 102;
+    transform: translate(-50%, -50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+}
+
+.header__avatar_popup {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 102;
+        transform: translate(-50%, -50%);
+    }
+}

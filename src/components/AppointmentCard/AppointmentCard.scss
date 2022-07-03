@@ -1,0 +1,64 @@
+.appointment {
+    width: 475px;
+    height: 174px;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+    background: #fff;
+    padding:20px;
+}
+
+
+
+.appt__time {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-bottom: 5px;
+}
+
+.appt__place {
+    max-width: 300px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+
+.appt__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.appt__doctor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+
+.appt__doctor_avatar{
+width:60px;
+        height: 60px;
+        border-radius: 50%;
+}
+.appt__doctor_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.appt__doctor_name {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.appt__doctor_topic {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #EBE7FF;
+}
